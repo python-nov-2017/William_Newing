@@ -57,5 +57,31 @@
 
 # name = "Charles"
 
-x = [5,34,10,16]
-if x not exists: #do something
+# x = [5,34,10,16]
+# if x not exists: #do something
+
+# def say_hi():
+#     return "Hi"
+# greeting = say_hi()
+# print greeting
+
+# def add(a, b):
+#     x = a + b
+#     return x
+# sum1 = add(4,5)
+# sum2 = add(1,4)
+# sum3 = sum1 + sum2
+
+# def multiply(arr,num):
+#     for x in range(len(arr)):
+#         arr[x] *= num
+#     return arr
+# a = [2,4,10,16]
+# b = multiply(a,5)
+# print b
+
+def get_circle_area(r):
+    c = 2 * math.pi * r
+    a = math.pi * r * r 
+    return (c, a)
+print (c, a)
