@@ -1,0 +1,125 @@
+*{
+    outline: 1px dashed green;
+    padding: 0px;
+    margin: 0px;
+}
+#wrapper {
+    width: 970px;
+    height: 400px;
+    margin: 0px auto;
+    background-color: darkblue;
+}
+h5 {
+    height: 3px;
+    color: white;
+    padding: 5px 1px 3px 800px;
+}
+a {
+    height: 10px;
+    width: auto; 
+    color: yellow;
+}
+h5, a, .searchbox {
+    display: inline-block;
+}
+.sitehead img {
+    height: 90px;
+    width: auto;
+}
+.searchbar {
+    height: 75px;
+    width: 250px;
+    border-radius: 10px;
+    padding: 0px 0px 0px 0px;
+    background-color: #bbb;
+    float: right;
+}
+    p.searchbox {
+        color: grey;
+        /* text-align: center; */
+    }
+    .searchbox {
+        background-color: white;
+        height: 25px;
+        width: 120px;
+        padding: 10px 0px 10px 0px;
+        margin: 10px 15px 10px 25px;
+        /* position: absolute; */
+        /* top: 53%; */
+        /* clear: right; */
+    }
+    .button {
+        color: white;
+        background-color: darkblue;
+        border-radius: 10px;
+        width: 35px;
+        height: 20px;
+        text-align: center;
+    }    
+    .sitehead, .searchbar, .content, .body {
+        display: inline-block;
+        border-radius: 10px;
+    }
+header {
+    padding: 10px 0px 10px 100px;
+}
+h1 {
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    word-spacing: 30px;
+    margin: 0 auto;
+    width: 750px;
+    padding: 10px;
+}
+.content, .body {
+    vertical-align: top;
+}
+ul {
+    padding: 10px 0px 10px 150px;   
+    width: 180px;
+    size: 18px;
+    color: white;    
+    vertical-align: top;
+}
+    p {
+    color: white;
+    size: 12px;
+    height: 90px;
+    width: 450px;
+    }
+    .body2 {
+        color: yellow;
+        vertical-align: top;
+        margin: auto;
+        height: 20px;
+        width: 350px;
+    }
+    .body3 {
+        color: white;
+    }
+.subcon {
+    width: 400px;
+    display: inline-block;
+}
+.padding {
+    color: black;
+    width: 350px;
+    padding: 0px 50px 0px 50px;
+}
+h3, ul, p, h1, .body, .searchbox {
+    text-align: center;    
+}
+p.padding {
+    height: 60px;
+}
+h6 {
+    background-color: darkblue;
+    color: grey;
+    word-spacing: 30px;
+    width: 970px;
+    height: 100px;
+    font-size: 1.17em;
+    text-align: center;
+    vertical-align: 50%;
+}

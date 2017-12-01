@@ -1,0 +1,109 @@
+/*CSS reset settings here*/ 
+*{
+    outline: 1px dashed green;
+}
+#wrapper {
+    width: 970px;
+    height: 940px;
+    margin: 0px auto;
+    background-color: violet;
+}
+header h1, header h2 {
+    display: inline-block;
+    padding: 15px;
+    height: 37px;
+    width: 380px;
+    background-color: white;
+    color: black;
+
+}
+h3, h4 {
+    margin: 0px;
+	height: 30px;
+	background-color: silver;
+	color: white;
+}
+.body-content {
+    display: inline-block;
+	vertical-align: top;
+	background-color: white;
+}
+#bio {
+    height: 250px;
+    padding: 20px;
+    height: 200px;
+    background-color: violet;
+    }
+    #bio img {
+        height: 200px;
+        width: 300px;
+        border: 4px solid grey;
+    }
+    #bio div {
+        display: inline-block;
+        width: 540px;
+        height: 200px;
+        vertical-align: top;
+        margin-left: 20px;
+        background-color: white;
+    }
+    #bio div h3 {
+        margin: 0px;
+        height: 30px;
+        background-color: silver;
+        color: white;
+    }
+    #bio div p {
+        background-color: white;
+    }
+.padding {
+    padding: 3px;
+}
+.subcon {
+    display: inline-block;
+    width: 280px;
+    height: 600px;
+    vertical-align: top;
+    margin-left: 20px;
+    background-color: white;
+}
+    .body-content img {
+        height: auto;
+        width: 40px;
+        display: inline-block;
+        padding: 6px;
+    }
+img.sub-head-img {
+    height: auto;
+    width: 280px;
+    display: block;
+    margin: 0 auto;
+}
+    #main_content div h4 {
+        margin: 0px;
+        height: 30px;
+        background-color: silver;
+        color: white;
+    }
+    .body-content a {
+        border-radius: 10px;
+        height: 40px;
+        width: 75px;
+        text-align: center;
+        color: white;
+        background-color: green;
+        margin: 10px auto;
+        clear: right;
+        padding: 15px 5px 0px 5px;
+        display: block;
+    }
+footer {
+    height: 100px;
+    text-align: center;
+}
+footer img {
+    height: auto;
+    width: 20px;
+    display: inline-block;
+    margin: 0 auto;
+}

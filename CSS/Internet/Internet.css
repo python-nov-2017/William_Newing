@@ -1,0 +1,101 @@
+*{
+    outline: 1px dashed green;
+    padding: 0px;
+    margin: 0px;
+}
+#wrapper {
+    width: 970px;
+    background: linear-gradient(to bottom, lightgrey 0.01%, white 100%)
+}
+.black {
+    color: black;
+}
+.blue {
+    color: blue;
+}
+.ltblue {
+    color: lightseagreen;
+}
+.red {
+    color: red;
+}
+.grey, .blue, .nav, .content {
+    display: inline-block;
+}
+.top img {
+    width: 70px;
+    position: absolute;
+    left: 0px;
+    top: 8px;
+    z-index: 1;
+}
+    div.banner {
+        padding: 20px 0px 5px 75px;
+    }
+    h1.grey, h1.blue, header {
+        background-color: white;
+        font-weight: normal;
+    }
+    h1.banner2 {
+        color: white;
+        width: 960px;
+        padding: 10px 0px 10px 10px;
+        font-weight: normal;
+        background: linear-gradient(#326da2 0%, #4d80aa 100%)
+    }
+.nav {
+    width: 200px;
+}
+    h3, p.black {
+        display: inline-block;
+        padding: 10px 0px 8px 5px;
+
+    }
+    .button, .orange, .ltbl {
+        width: 180px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        display: block;
+        color: white;
+        text-align: center;
+    }
+    a.button {
+        background-color: blue;        
+    }
+    a.orange {
+        background-color: orange;
+    }
+    hr.style1 {
+        border-bottom: 1px solid #8c8b8b;
+    }
+    img.back {
+        width: 200px;
+        position: absolute;
+        left: 0px;
+        top: 37%;
+        z-index: -1;
+    }
+    h2.banner {
+        color: white;
+        font-weight: normal;
+        text-align: center;
+        padding: 10px 0px 0px 0px;
+    }
+    img.nin {
+        width: 80px;
+        display: block;
+        margin: auto;
+        padding: 0px 0px 15px 0px;
+    }
+    a.ltbl {
+        background-color: lightseagreen;
+        width: 150px;
+        margin: auto;
+    }
+.nav, .content {
+    display: inline-block;
+    /* width: 500px; */
+}
+.content {
+    /* width: 400px; */
+}
