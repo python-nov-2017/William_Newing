@@ -43,4 +43,4 @@ def buy(request, item_id):
     return redirect('/checkout')
 
 def checkout(request):
-    return render(request, 'store/checkout.html')
+    return render(request, 'main/checkout.html')
