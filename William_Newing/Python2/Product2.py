@@ -5,14 +5,12 @@ class Product(object):
         self.brand = brand
         self.price = price
         self.status = status
-        self.tax = 0.10*price
+        self.tax = float(price) * 0.10
+
+class Returns(Product):
+    def __init__(self, price, item_name, weight, brand, status, reason):
+        super(Returns, self).__init__(item_name, weight, brand, status, reason)
         self.display_all()
-
-    def sell(self, status):
-        self.status = 'sold'
-
-    def returns(self, reason):
-        print reason
         if (reason == 1):
             self.status = 'defective'
             self.price = 0 
@@ -22,19 +20,23 @@ class Product(object):
         else:
             status = 'for sale'
             self.price = price
-        return self
-   
+        # return self
+    
     def display_all(self):
         print 'Brand: ' + str(self.brand)
         print 'Product Name: ' + str(self.item_name)
         print 'Weight: ' + str(self.weight) + ' grams' 
         print 'Price: $' + str(self.price)
         print 'Tax: $' + str(self.tax)        
+    
+    def sell(self, status):
+        self.status = 'sold'
+   
 
-product1 = Product(600, 'iphone', 500, 'Apple', 'for sale')
-product1.returns(1)
-print product1.status
-product1.returns(1)
+product1 = Returns('iphone', 600, 'iPhone', 500, 'Apple', 2)
+# product1.returns(1)
+print product1
+# product1.returns(1)
 
 # product2 = Product(35, 'Echo Dot', 100, 'Amazon', 'for sale')
 # product2.returns(2)
