@@ -34,6 +34,7 @@ class Hospital(object):
             print "Patient #{} admitted to bed #{}".format(patient.id, patient.bed_num)
         else:
             "Hospital is at full capacity"
+
     def discharge(self, patient_id):
         for patient in self.patients:
             if patient.id == patient_id:
@@ -46,3 +47,6 @@ class Hospital(object):
                 self.patients.remove(patient)
                 return "Patient #{} sucessfully discharged.  Bed #{} now available".format(patient.id, patient.bed_num)
         return "Patient not found"
+
+p = Patient('Tom', 'peanut')
+print p.allergies
