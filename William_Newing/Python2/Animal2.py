@@ -6,11 +6,11 @@ class Animal(object):
     def walk(self):
         self.health -= 1
         return self
-
+    
     def run(self):
         self.health -= 5
         return self
-
+    
     def displayHealth(self):
         print 'My name is: ' + self.name
         print 'I have: ' + str(self.health) + ' health'
@@ -28,20 +28,36 @@ class Dog(Animal):
         return self
 
 dog = Dog('Snoopy')
-dog.walk().walk().walk().run().run().displayHealth()
+dog.walk().walk().walk().pet().displayHealth()
 
 class Dragon(Animal):
     def __init__(self, name):
-        super(Dragon, self).__init__(name)
+        super(Dragon, self). __init__(name)
         self.health = 170
 
     def fly(self):
         self.health -= 10
         return self
-
+    
     def displayHealth(self):
-        print "This is a dragon"
+        print 'I am a Dragon'
         super(Dragon, self).displayHealth()
 
 dragon = Dragon('ToothLess')
 dragon.fly().displayHealth()
+
+class Fish(Animal):
+    def __init__(self, name):
+        super(Fish, self).__init__(name)
+        self.health = 180
+
+    def swim(self):
+        self.health += 10
+        return self
+    
+    def displayHealth(self):
+        print 'I am ' + self.name
+        print 'I have: ' + str(self.health) + ' health'
+
+fish = Fish('Dory')
+fish.swim().swim().swim().displayHealth()
