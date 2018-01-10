@@ -7,9 +7,9 @@ class Call(object):
         self.phone_num = phone_num
         self.time_of_call = datetime.now()
         self.reason = reason
-        self.id - CALL.NUM.NUM_CALLS
+        self.id = Call.NUM_CALLS
 
-        CALL.NUM_CALLS += 1
+        Call.NUM_CALLS += 1
 
     def display_info(self):
         print "\n" + ("#" * 20)
@@ -29,7 +29,7 @@ class CallCenter(object):
         return len(self.calls)
 
     def add(self, a_call):
-        self.calls.append(new_call)
+        self.calls.append(a_call)
 
     def remove(self, r_call):
         self.calls.remove(r_call)
@@ -38,5 +38,8 @@ class CallCenter(object):
         for call in self.calls:
             call.display_info()
 
-c = Call('Tim', 555-425-3154, 'question')
+c = Call('Tim', "555-425-3154", 'question')
+Call_Center = CallCenter()
+Call_Center.add(Call('Tim', "555-425-3154", 'question'))
 print c.reason
+print c.__dict__
