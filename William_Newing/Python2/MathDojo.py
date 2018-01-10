@@ -9,3 +9,5 @@ class MathDojo(object):
             else:
                 self.result += x
         return self
+        
+MathDojo.add(2).add(2,5).subtract(3,2).result
